@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/webdev-review-pjin/static/css/main.2260d367.css",
-    "main.js": "/webdev-review-pjin/static/js/main.01affb27.js",
+    "main.js": "/webdev-review-pjin/static/js/main.545411f0.js",
     "index.html": "/webdev-review-pjin/index.html"
   },
   "entrypoints": [
     "static/css/main.2260d367.css",
-    "static/js/main.01affb27.js"
+    "static/js/main.545411f0.js"
   ]
 }
