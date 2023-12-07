@@ -17,9 +17,9 @@ const introdata = {
 };
 
 // ส่วน About me //
-const dataabout = {
+const dataforme = {
     title: "Dinner and take photos often",
-    aboutme: "One Tea Coffee and BaanBam Cafe & Bistro",
+    formeonly: "One Tea Coffee and BaanBam Cafe & Bistro",
 };
 
 const worktimeline = [{
@@ -78,7 +78,7 @@ const services = [{
 ];
 
 // ส่วน Port //
-const dataportfolio = [{
+const datasuggest = [{
         img: "https://scontent.fbkk17-1.fna.fbcdn.net/v/t1.6435-9/122138158_2414248458883208_2864130221129058003_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=7f8c78&_nc_eui2=AeFPyK3YwnkCHI4lJGtpuHdjYuMpafo4akBi4ylp-jhqQIOmi9ol1PAGo4jK_8PKtovDmSQut_qbrqGo0pdpoG2K&_nc_ohc=k3o9h27sKagAX-b6gIa&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfDk4l7zWquL3se8ZwG_E0VPTZNpRMuCn43HE8DDdisiFg&oe=6596F8A6",
         description: "💜 BaanBam Cafe & Bistro    🌷 Open: 9:00 AM - 8:00 PM (Closed every Tuesday)",
         link: "https://www.facebook.com/baanbamcafe?__tn__=-]K*F",
@@ -131,7 +131,7 @@ const dataportfolio = [{
     },
     {
         img: "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-6/363433582_749753777155381_294470007223197220_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeHgDJf3h2laVFJsEryEEOPZRNSDw37rEeZE1IPDfusR5m9AH56ynsQpQKRoyxJEUk7jbMd1n64DTVIjlkZKfg5z&_nc_ohc=E8QmmjRDAVYAX9Vbhnk&_nc_ht=scontent.fbkk17-1.fna&oh=00_AfDOENK2-67cdDCgXSPT2dTgB5jNlKEzkAJkMgb7K4gA3Q&oe=65750EAC",
-        description: "💜 Thanya cafe🌷 𝖮𝗉𝖾𝗇 𝟢𝟫.𝟢𝟢-𝟣𝟫.𝟢𝟢 (Closed on Wednesday)",
+        description: "💜 Thanya cafe🌷 𝖮𝗉𝖾𝗇 𝟢𝟫.𝟢𝟢 am-𝟣𝟫.𝟢𝟢 pm (Closed on Wednesday)",
         link: "https://www.facebook.com/thanyacafe/",
     },
     {
@@ -160,8 +160,8 @@ const socialprofils = {
 };
 export {
     meta,
-    dataabout,
-    dataportfolio,
+    dataforme,
+    datasuggest,
     worktimeline,
     skills,
     services,

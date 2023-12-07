@@ -3,36 +3,36 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  dataabout,
+  dataforme,
   meta,
   worktimeline,
   skills,
   services,
 } from "../../content_option";
 
-export const About = () => {
+export const Ratebyp = () => {
   return (
     <HelmetProvider>
-      <Container className="About-header">
+      <Container className="Ratebyp-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> About | {meta.title}</title>
+          <title> For me | {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">For me</h1>    {/* title หลัก*/}
+            <h1 className="display-4 mb-4">For me</h1>    {/* ตรง section หลัก*/}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
 
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">{dataabout.title}</h3>
+            <h3 className="color_sec py-4">{dataforme.title}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p>{dataforme.formeonly}</p>
             </div>
           </Col>
           <img src="https://www.toyotakan.com/wp-content/uploads/2018/01/%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B8%84%E0%B8%AD%E0%B8%9F%E0%B8%9F%E0%B8%B5%E0%B9%88-06.jpg" alt="Image 1"  style={{ width: '47%', height: 'auto' }}
